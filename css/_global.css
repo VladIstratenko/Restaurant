@@ -1,0 +1,19 @@
+body {
+    font-size: 16px;
+    font-family: var(--Open);
+    background-color: #E5E5E5;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.section-title {
+    font-family: var(--Tinos);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

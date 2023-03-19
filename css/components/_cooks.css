@@ -1,0 +1,27 @@
+.coocs {
+    background-color: var(--white);
+}
+
+.cooks__images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 426px) {
+    .cooks__images {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .cook__img {
+        margin-bottom: 17px;
+    }
+    
+    .cook__img:last-child {
+        margin-bottom: 0;
+    }
+}

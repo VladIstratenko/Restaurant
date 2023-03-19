@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Tinos&display=swap');
+
+@import "./_reset.css";
+@import "./_variables.css";
+@import "./_buttons.css";
+@import "./_global.css";
+
+/* COMPONENTS */
+@import "./components/_header.css";
+@import "./components/_cards.css";
+@import "./components/_history.css";
+@import "./components/_action.css";
+@import "./components/_dish.css";
+@import "./components/_menu.css";
+@import "./components/_feedback.css";
+@import "./components/_gallery.css";
+@import "./components/_cooks.css";
+@import "./components/_footer.css";
+

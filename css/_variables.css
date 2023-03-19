@@ -1,0 +1,15 @@
+:root {
+    /* Fonts */
+    --Open: 'Open Sans', sans-serif;
+    --Tinos: 'Tinos', serif;
+    --Cookie: 'Cookie', cursive;
+
+    /* Colors */
+    --white: #FFF;
+    --black: #000;
+    --black-light: #2C2C2C;
+    --gray: #656363;
+    --brown: #D67E35;
+    --brown-dark: #BC9060;
+    --brown-light: #FF7400;
+}

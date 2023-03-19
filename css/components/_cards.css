@@ -1,0 +1,148 @@
+.cards-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    font-family: var(--Tinos);
+    display: block;
+    background-color: var(--white);
+    align-content: center;
+    padding: 50px 32px;
+    width: 350px;
+    height: 330px;
+    text-align: center;
+    position: relative;
+    top: -108px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card__title {
+    display: flex;
+    justify-content: center;
+}
+
+.card__title-1,
+.card__title-2 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.card__title-1 {
+    color: var(--black-light);
+    margin-right: 5px;
+}
+
+.card__title-2 {
+    color: var(--brown-dark);
+}
+
+.card__descr {
+    color: var(--gray);
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 1111px) {
+    .cards-wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card {
+        padding: 20px 13px;
+        width: 290px;
+        height: 276px;
+    }
+
+    .card__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__title-1,
+    .card__title-2 {
+        margin-top: 0px;
+    }
+
+    .card__descr {
+        font-size: 22px;
+        margin-top: 6px;
+    }
+
+}
+
+@media (max-width: 930px) {
+    .cards-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        padding: 50px 32px;
+        width: 350px;
+        height: 330px;
+        margin-bottom: 14px;
+    }
+
+    .card__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__title-1,
+    .card__title-2 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 5px;
+    }
+
+    .card__title-1 {
+        color: var(--black-light);
+        margin-right: 5px;
+    }
+
+    .card__title-2 {
+        color: var(--brown-dark);
+    }
+
+    .card__descr {
+        color: var(--gray);
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+}
+
+
+@media (max-width: 376px) {
+    .cards-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        padding: 20px 13px;
+        width: 290px;
+        height: 276px;
+    }
+
+    .card__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__title-1,
+    .card__title-2 {
+        margin-top: 0px;
+    }
+
+    .card__descr {
+        font-size: 22px;
+        margin-top: 6px;
+    }
+}

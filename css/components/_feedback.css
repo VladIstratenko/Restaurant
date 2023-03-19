@@ -1,0 +1,102 @@
+.feedback {
+    height: 550px;
+    width: 100%;
+    background-color: #e6e5e5;
+}
+
+.feedback__content {
+    text-align: center;
+    width: 80%;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.feedback__descr {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 27px;
+    padding-top: 104px;
+}
+
+.feedback__user-icon {
+    border-radius: 50%;
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
+
+.feedback__user-status {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.feedback__user-name {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+
+@media (max-width: 625px) {
+    .feedback {
+        height: 450px;
+    }
+
+    .feedback__content {
+        text-align: center;
+        max-width: 920px;
+        margin: 30px auto;
+    }
+
+    .feedback__descr {
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 0px;
+    }
+
+    .feedback__user-icon {
+        border-radius: 50%;
+        margin-top: 26px;
+        margin-bottom: 20px;
+    }
+
+    .feedback__user-status {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .feedback__user-name {
+        margin-top: 9px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .feedback__descr {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 0px;
+    }
+
+    .feedback__user-icon {
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 16px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .feedback__user-status {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .feedback__user-name {
+        margin-top: 9px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
